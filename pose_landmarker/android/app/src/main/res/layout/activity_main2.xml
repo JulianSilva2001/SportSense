@@ -6,34 +6,58 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:visibility="visible"
+    android:background="@drawable/bg2"
     tools:context=".MainActivity2"
     tools:visibility="visible">
+
+    <View
+        android:id="@+id/blue_overlay"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#81295968"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:text="Choose Activity"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button5"
         style="@style/Widget.AppCompat.Button"
         android:layout_width="300dp"
         android:layout_height="100dp"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="30dp"
         android:layout_marginBottom="627dp"
         android:text="Sprint"
-        android:paddingHorizontal="10dp"
+        android:textAlignment="viewStart"
+        android:paddingHorizontal="30dp"
         android:paddingVertical="10dp"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/textView3"/>
 
     <Button
         android:id="@+id/button7"
         android:layout_width="300dp"
         android:layout_height="100dp"
-        android:layout_marginTop="50dp"
-        android:paddingHorizontal="10dp"
+        android:layout_marginTop="20dp"
+        android:paddingHorizontal="30dp"
         android:paddingVertical="10dp"
         android:text="WORKOUT"
-        android:textSize="18sp"
+        android:textAlignment="viewStart"
+        android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="@+id/button5"
         app:layout_constraintStart_toStartOf="@+id/button5"
         app:layout_constraintTop_toBottomOf="@+id/button5" />
@@ -42,11 +66,12 @@
         android:id="@+id/button8"
         android:layout_width="300dp"
         android:layout_height="100dp"
-        android:layout_marginTop="50dp"
-        android:paddingHorizontal="10dp"
+        android:layout_marginTop="20dp"
+        android:paddingHorizontal="30dp"
         android:paddingVertical="10dp"
         android:text="CRICKET"
-        android:textSize="18sp"
+        android:textAlignment="viewStart"
+        android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="@+id/button7"
         app:layout_constraintStart_toStartOf="@+id/button7"
         app:layout_constraintTop_toBottomOf="@+id/button7" />
@@ -55,15 +80,28 @@
         android:id="@+id/button9"
         android:layout_width="300dp"
         android:layout_height="100dp"
-        android:layout_marginTop="50dp"
-        android:paddingHorizontal="10dp"
+        android:layout_marginTop="20dp"
+        android:paddingHorizontal="30dp"
         android:paddingVertical="10dp"
         android:text="BASKETBALL"
-        android:background="@drawable/basketball"
-        android:textSize="18sp"
+        android:textAlignment="viewStart"
+        android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="@+id/button8"
         app:layout_constraintStart_toStartOf="@+id/button8"
         app:layout_constraintTop_toBottomOf="@+id/button8" />
+
+    <Button
+        android:id="@+id/buttonLogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="50dp"
+        android:text="Log out"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:backgroundTint="@color/design_default_color_on_secondary"
+        />
 
 
 
