@@ -9,4 +9,5 @@ SportSense is a cutting-edge AI-powered sports coaching app designed to enhance 
 - **Workout Guidance**: Follow guided workout routines designed by expert coaches, with step-by-step instructions and motivational cues.
 - **Repetition Tracking**: Automatically count repetitions for each exercise, allowing you to focus on your form without worrying about keeping track.
 
-Click on Prototype Video to watch how it functions: ([Prototype Video](https://drive.google.com/file/d/10mjk0M_CXsMWJi0X9BKFbTepISLFYVch/view?usp=sharing))
+[![Prototype Video](https://github.com/JulianSilva2001/SportSense/blob/main/Logo.jpeg)](https://drive.google.com/file/d/10mjk0M_CXsMWJi0X9BKFbTepISLFYVch/view?usp=sharing)
+
